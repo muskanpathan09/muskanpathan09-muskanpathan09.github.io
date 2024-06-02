@@ -1,0 +1,166 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #1e1eTo customize the portfolio website to match the design aesthetics of "Jesse's Ramen" website, here is the complete `index.html` and `styles.css` code. This will help you set up a portfolio website with a similar look and feel.
+
+### `index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muskan Pathan - AI and Data Science Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Muskan Pathan</h1>
+            <p>Artificial Intelligence and Data Science Student</p>
+            <div class="contact-info">
+                <a href="mailto:muskanpathan000@gmail.com"><i class="fas fa-envelope"></i> muskanpathan000@gmail.com</a>
+                <a href="tel:+918329391148"><i class="fas fa-phone"></i> 8329391148</a>
+                <p>Muskan Palace, Narmada Park Road, Medankarwadi, Chakan 410501, Tal: Khed, Dist: Pune</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fas fa-link"></i></a>
+                <a href="#"><i class="fab fa-hackerrank"></i></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <h3>SPPU Pune, India</h3>
+                <p>Bachelor's in Artificial Intelligence and Data Science (2021 - 2024)</p>
+                <p>CGPA: 9.45</p>
+            </div>
+            <div class="education-item">
+                <h3>MSBTE Pune, India</h3>
+                <p>Diploma in Information Technology (2021)</p>
+                <p>Percentage: 94.38%</p>
+            </div>
+            <div class="education-item">
+                <h3>CBSE Pune, India</h3>
+                <p>10th Boards Secondary Education (2018)</p>
+                <p>Percentage: 80%</p>
+            </div>
+        </section>
+        <section class="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-item">
+                <h3>Oasis Infobyte | Data Science Intern</h3>
+                <p>Remote, India | March 01, 2023 - April 01, 2023</p>
+                <ul>
+                    <li>Applied Data Science and Machine Learning Concepts to Diverse Datasets</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>IBM SkillsBuild | Machine Learning Intern</h3>
+                <p>Remote, India | July 28, 2022 - October 18, 2022</p>
+                <ul>
+                    <li>Week 1: Identified a real-world Problem Statement</li>
+                    <li>Week 2: Solution Development</li>
+                    <li>Week 3: Solution Design</li>
+                    <li>Week 4: Final Project Submission and Presentation</li>
+                </ul>
+            </div>
+        </section>
+        <section class="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>Programming Languages: C, C++, Python, HTML and CSS, JS</li>
+                <li>Tools / Platforms: GitHub, JIRA, PowerBI</li>
+                <li>Databases: MySQL, Oracle</li>
+                <li>Python Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn, TensorFlow</li>
+                <li>Machine Learning: Regression, Classification, Clustering, Neural Networks</li>
+                <li>Data Science: Data Cleaning, Data Visualization, Statistical Analysis</li>
+                <li>ML Models: Linear Regression, Decision Trees, Random Forest, Support Vector Machines, K-Nearest Neighbors, Neural Networks, LSTM, TRNN, DCNN, GRU, ProgNet</li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h2 class="section-title">Projects / Open-Source</h2>
+            <div class="project-item">
+                <h3>RUL Prediction of Aircraft Engine on CMAPSS Dataset</h3>
+                <p>Python, NumPy, Scikit-Learn</p>
+                <ul>
+                    <li>Developed a predictive maintenance model to estimate the remaining operational life of aircraft engines.</li>
+                    <li>Employed deep learning models as base learners within an ensemble framework to capture intricate degradation patterns in engine performance.</li>
+                    <li>Explored various sensor data, including temperature, pressure, and speed, to identify early indicators of engine failure and visualized the same.</li>
+                    <li>Implemented techniques such as time-series analysis, feature engineering, and model ensembling (Bi-LSTM, Bi-TRNN, DCNN, Bi-GRU, ProgNet) to enhance prediction accuracy.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Black Friday Sales Prediction</h3>
+                <p>Python, NumPy, Scikit-Learn, Jupyter Notebook</p>
+                <ul>
+                    <li>Developed accurate sales prediction models for Black Friday using machine learning algorithms.</li>
+                    <li>Provided insights into the factors that influence Black Friday sales, such as product categories, discounts, customer demographics, and more.</li>
+                    <li>Enabled the company to optimize pricing, marketing, and inventory management strategies based on predictive analytics.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Automated Media Player Using Computer Vision</h3>
+                <p>Python, Mediapipe, OpenCV</p>
+                <ul>
+                    <li>Controlled any media player such as YouTube or VLC using hand gestures.</li>
+                    <li>Implemented gestures for various controls like forward, backward, volume up, volume down, pause, and unpause.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Greenhouse Management System Using IoT</h3>
+                <p>Node.js, C</p>
+                <ul>
+                    <li>Created a physical model with a smart and sustainable environment for greenhouse.</li>
+                    <li>Automated monitoring and optimal control of the greenhouse environment with minimal human intervention.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <ul>
+                <li>Data Analysis with Python - IBM Cognitive Class</li>
+                <li>Machine Learning with Python (ML0101EN) - IBM Cognitive Class</li>
+                <li>Programming Foundations with JavaScript, HTML, and CSS - Duke University (Coursera)</li>
+                <li>Python for Data Science - IBM Cognitive Class</li>
+                <li>Introduction to Software Product Management - University of Alberta (Coursera)</li>
+            </ul>
+        </section>
+        <section class="honors">
+            <h2 class="section-title">Honors & Awards</h2>
+            <ul>
+                <li>Won "1st Prize in Podcast Competition" at VPKBIET-2023</li>
+                <li>"Literature Club Head", VPKBIET, 2023</li>
+                <li>"Ink & Echoes: Poetic Reveries" Ebook on Amazon</li>
+                <li>"Cultural Head and Departmental Representative", VPKBIET, 2022</li>
+                <li>Won "1st Prize in Paper Presentation" - 2020</li>
+                <li>Won "2nd Prize in Quiz Competition" - 2019</li>
+                <li>Won "2nd Prize in Extempore" - 2019</li>
+            </ul>
+        </section>
+        <section class="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>English: Fluent</li>
+                <li>Hindi: Fluent</li>
+                <li>Marathi: Fluent</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Muskan Pathan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
